@@ -1,5 +1,9 @@
 # Token Radar — radar-3 (round 2)
 
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/Arfndi/token-radar-01-r2/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/Arfndi/token-radar-01-r2/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
 A token launch radar: it ranks pre-token protocols by the expected value of a launch,
 from one sealed DefiLlama snapshot (2026-11-14). Round 2 of the make.fun token-radar-01
 entry; round 1 (radar-2) scored 830079.
@@ -54,3 +58,7 @@ Node 22, standard library only. Deterministic: the same snapshot bytes always wr
 output bytes (seeded bootstrap, fixed validation folds). Output: `board.json`, `data.js`,
 `dashboard/`, `screenshots/`, `dossier.json`. The run refuses to write a board the gate
 refuses and requires 3 screenshots (board, detail, filtered).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
