@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar — pre-token protocols ranked by expected value</title>
+<link rel="stylesheet" href="radar.css">
+</head>
+<body>
+<div id="app" aria-busy="true">
+  <header class="masthead">
+    <div class="wordmark"><span class="sweep" aria-hidden="true"></span><span>TOKEN RADAR</span></div>
+    <div class="mast-meta" id="mast-meta">Loading snapshot…</div>
+  </header>
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="kicker">Pre-token protocols · ranked by expected value</p>
+        <h1 id="hero-title">Which launch is worth farming next?</h1>
+        <p class="lede" id="hero-lede">Loading the board…</p>
+      </div>
+      <dl class="stats" id="stats"></dl>
+    </section>
+    <section class="signals" id="signals" aria-label="Top signals"></section>
+    <section class="controls" id="controls" aria-label="Board filters"></section>
+    <section class="panel" id="board-panel" aria-label="Ranked board"></section>
+    <section class="panel validation" id="validation" aria-label="Validation"></section>
+    <section class="panel explainer" id="explainer" aria-label="How the value model works"></section>
+    <footer class="foot" id="foot"></footer>
+  </main>
+</div>
+<aside class="detail" id="detail" hidden aria-labelledby="detail-title"></aside>
+<script src="../data.js"></script>
+<script src="radar.js"></script>
+</body>
+</html>
